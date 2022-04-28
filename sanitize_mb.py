@@ -4,8 +4,6 @@ import os.path
 import sys
 from san_common import sanitize
 
-virusNodes = {'vaccine_gene', 'breed_gene'}
-
 if len(sys.argv) <= 1:
     sys.stderr.write('Usage: python {} <input directory> [output directory]\n'.format(sys.argv[0]))
     sys.stderr.write('\t if [output directory] not specified, will just replace files in the same directory\n')
